@@ -8,7 +8,7 @@ int soma, subtracao, multiplicacao, divisao; //Variaveis que sejam resultados de
     printf("Entre com o numero 1: \n");
     scanf("%d", &numero1);
     printf("Entre com o numero 2: \n");
-    scanf("&d", &numero2);
+    scanf("%d", &numero2);
 
     soma = numero1 + numero2; //Operação de soma
 
@@ -19,8 +19,8 @@ int soma, subtracao, multiplicacao, divisao; //Variaveis que sejam resultados de
     divisao = numero1 / numero2; //Operação de divisão
 
     printf("A Soma é: %d\n", soma);
-printf("A Subtração é: %d\n", subtracao);
-printf("A Multiplicação é: %d\n", multiplicacao);
-printf("A Divisão é: %d\n", divisao);
+    printf("A Subtração é: %d\n", subtracao);
+    printf("A Multiplicação é: %d\n", multiplicacao);
+    printf("A Divisão é: %d\n", divisao);
 
 }
